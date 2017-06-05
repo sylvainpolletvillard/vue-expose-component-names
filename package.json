@@ -1,0 +1,33 @@
+{
+  "name": "vue-expose-component-names",
+  "version": "0.0.2",
+  "description": "Vue.js plugin to expose component names in the DOM",
+  "jsnext": "dist/vue-expose-component-names.js",
+  "esnext": "dist/vue-expose-component-names.js",
+  "main": "dist/vue-expose-component-names.common.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint src/*",
+    "beforePublish": "npm run lint && npm run build"
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "author": "sylvainpolletvillard <sylvain.pollet.villard@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "lodash": "^4.16.4",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-plugin-html": "^1.5.3",
+    "eslint-plugin-import": "^1.16.0",
+    "rollup": "^0.36.3",
+    "rollup-plugin-buble": "^0.14.0",
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
+}
