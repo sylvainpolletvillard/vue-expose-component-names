@@ -2,8 +2,7 @@
   "name": "vue-expose-component-names",
   "version": "0.0.2",
   "description": "Vue.js plugin to expose component names in the DOM",
-  "jsnext": "dist/vue-expose-component-names.js",
-  "esnext": "dist/vue-expose-component-names.js",
+  "module": "dist/vue-expose-component-names.js",
   "main": "dist/vue-expose-component-names.common.js",
   "scripts": {
     "build": "rollup -c",
