@@ -1,6 +1,6 @@
 {
   "name": "vue-expose-component-names",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Vue.js plugin to expose component names in the DOM",
   "module": "dist/vue-expose-component-names.js",
   "main": "dist/vue-expose-component-names.common.js",
