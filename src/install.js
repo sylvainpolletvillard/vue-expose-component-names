@@ -6,7 +6,10 @@ const VueExposeComponentNamesPlugin = {
 
 		Vue.mixin({
 			mounted() {
-				this.$el.setAttribute(config.attribute, this.$options.name || this.$options._componentTag)
+				const name = this.$options.name || this.$options._componentTag;
+				if(name !== undefined){
+					this.$el.setAttribute(config.attribute, name)
+				}
 			}
 		})
 	}
